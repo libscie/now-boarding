@@ -1,0 +1,32 @@
+h1 {
+	font-family: Fira Sans;
+	color: grey;
+	text-align: center;
+}
+
+div {
+	font-family: Fira Sans;
+	margin: 0em 10% .5em 10%;
+	align-content: center;
+
+}
+
+.tldr {
+
+}
+
+.warning {
+
+}
+
+.diagram {
+	align-self: center;
+}
+
+footer {
+	font-family: Fira Sans;
+	font-style: ExtraLight;
+	font-size: .5em;
+	text-align: center;
+
+}
