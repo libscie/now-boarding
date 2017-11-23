@@ -15,6 +15,7 @@ Please read [CONTRIBUTING.md](contributing.md) for details on the process for su
 Everyone who contributes content is an author and gets listed here 📣
 
 * **Chris Hartgerink**
+* **Rachael Ainsworth**
 
 See also the list of [contributors](https://github.com/libscie/now-boarding/contributors) who participated in this project. For a more inclusive list of who participated in issue discussions, check out [this page](https://labhr.github.io/hatrack/#repo=libscie/now-boarding).
 
