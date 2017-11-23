@@ -1,6 +1,6 @@
 # Preprints
 
-Preprints are versions of a manuscript before they have passed peer-review. At which stage you share  a version of a manuscript as a preprint, is up to you. A preprint can be the submitted manuscript after extensive revisions with your co-authors or a completed draft that your co-authors are reviewing but you want more diverse feedback on (or anything in between). When a manuscript has passed peer-review and you want to share it, it is often called a [postprint](postprint.md).
+Preprints are versions of a manuscript before they have passed peer-review. At which stage you share  a version of a manuscript as a preprint, is up to you. A preprint can be the submitted manuscript after extensive revisions with your co-authors or a completed draft that your co-authors are reviewing but you want more diverse feedback on (or anything in between). When a manuscript has passed peer-review and you want to share it, it is often called a [postprint](postprints.md).
 
 Sharing preprints helps decrease artificial delays in sharing of results, that [easily run into months and sometimes even years](http://web.archive.org/web/20150701055009/http://blog.dhimmel.com/plos-and-publishing-delays/) in the traditional back and forth between peer-reviewers, editors, and authors. Of course, sharing results too soon is a worry, but that also applies to when results are presented at conferences. Sharing results too late is also a worry for scholarly research, which is why preprints are helpful.
 
