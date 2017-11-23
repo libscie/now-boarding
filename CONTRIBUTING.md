@@ -17,4 +17,3 @@ More specific contribution guidelines are:
 * Any contributions are appreciated, so there is no need to pressure yourself with contributing large amounts or perfect content. As maintainers and contributors, we can facilitate each other 🙋
 
 Have any suggestions for the contributing guidelines? [Please let us know in the issues](https://github.com/libscie/now-boarding/issues/new)!
-
