@@ -1,6 +1,6 @@
 # Postprints
 
-Postprints (also called Green Open Access) are free-to-read versions of accepted manuscripts after peer-review without paywalls. Specifically, postprints are the accepted but unformatted version of a manuscript. This means that the manuscript is not the typeset version from the publisher, but the author version from for example LaTeX or a word editor. An example comparison is shown below, for reference.
+Postprints (also called Green [Open Access](open-access.md)) are free-to-read versions of accepted manuscripts after peer-review without paywalls. Specifically, postprints are the accepted but unformatted version of a manuscript. This means that the manuscript is not the typeset version from the publisher, but the author version from, for example, LaTeX or a word editor. An example comparison is shown below, for reference.
 
 <!-- Add images of unformatted and formatted for an open access paper -->
 <!-- The size of these will be stabilized by use of CSS -->
@@ -13,7 +13,7 @@ Some countries have laws that state that making postprints available is a moral 
 
 Postprints are often shared in centralized repositories, instead of personal websites, to increase findability and make sure these stay available over time. If shared on a personal website, services such as [Google Scholar](google-scholar.md), [oaDOI](https://oadoi.org), and other services have trouble finding these copies and are less likely to help link people to these free-to-read versions. Also, due to [Link Rot](link-rot.md) and [Content Drift](content-drift.md) on the Internet (also collectively called [Reference Rot](reference-rot.md), personal websites are not reliable for access. Many institutions have their own repositories to deposit postprints too. [Preprint](preprints.md) servers are good places to deposit postprints in, making it natural to post the manuscript from submission through acceptance.
 
-Sharing postprints is a good first step in promoting availability of your work to interested readers but requires you to self-archive your work and may still restrict how people are allowed to share that research and redistribute it. For example, posting an article on your digital course forum may still be restricted due to [Copyright](copyright.md), despite that you can access the information in a postprint. The main problem is that [Copyright Transfer Agreements](copyright-transfer-agreements.md) often require the author to transfer *all* copyright. To promote permissive reuse of your research, read more about [Licensing](licensing.md).
+Sharing postprints is a good first step in promoting availability of your work to interested readers but requires you to self-archive your work. It may also still be restrictive in how people are allowed to share that research and redistribute it. For example, posting an article on your digital course forum may still be restricted due to [Copyright](copyright.md), despite the fact that you can access the information in a postprint. The main problem is that [Copyright Transfer Agreements](copyright-transfer-agreements.md) often require the author to transfer *all* copyright. To promote permissive reuse of your research, read more about [Licensing](licensing.md).
 
 ## Exercises
 
