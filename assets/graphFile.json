@@ -1,10 +1,1 @@
-{
-  "nodes":[
-    {"name":"Preprints","group":1},
-    {"name":"node2","group":2}
-  ],
-  "links":[
-    {"source":0,"target": 1, "weight":500},
-    {"source":1,"target": 0, "weight":3}
-  ]
-}
+{"nodes":[{"name":"preprints.md","group":1},{"name":"test.md","group":1}],"links":[{"source":1,"target":0,"weight":1}]}
