@@ -1,1 +1,16 @@
-{"nodes":[{"name":"preprints.md","group":1},{"name":"test.md","group":1}],"links":[{"source":1,"target":0,"weight":1}]}
+{
+  "nodes":[
+    {"name":"preprints.md","group":1},
+    {"name":"tefdfadst.md","group":1},
+    {"name":"tefasst.md","group":1},
+    {"name":"preprfints.md","group":1},
+    {"name":"tefdfadst.md","group":1}
+  ],
+  "links":[
+    {"source":1,"target":0,"weight":1},
+    {"source":1,"target":2,"weight":1},
+    {"source":0,"target":1,"weight":1},
+    {"source":1,"target":3,"weight":1},
+    {"source":4,"target":2,"weight":1}
+  ]
+}
