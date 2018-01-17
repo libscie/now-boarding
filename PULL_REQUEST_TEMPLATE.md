@@ -21,6 +21,5 @@ These are topics not previously mentioned in the content or issues and that need
 Feel free to review if you want, feel free to not do so too. Much love to reviewers for their willingness to take part 😍 
 
 @jibe-b
-@amscheel
 @emaassen
 
