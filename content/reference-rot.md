@@ -1,6 +1,6 @@
 # Reference rot
 
-Reference rot occurs when a link to a Webpage either does not work anymore (called link rot) or when different content is presented on that page than was originally referred to (called content drift). [One out of five scholarly articles](https://doi.org/10.1371/journal.pone.0115253) contains some form of reference rot; age of an article increases the probability of reference rot.
+Reference rot occurs when a link to a Webpage either does not work anymore (called link rot) or when different content is presented on that page than was originally referred to (called content drift). [One out of five scholarly articles](https://doi.org/10.1371/journal.pone.0115253) and [over 70% of all Weblinks in legal](http://web.archive.org/web/20180117215147/https://harvardlawreview.org/2014/03/perma-scoping-and-addressing-the-problem-of-link-and-reference-rot-in-legal-citations/) contain reference rot; age of a Weblink increases the probability of reference rot.
 
 The Web is a dynamic place, which for day-to-day purposes is exactly what we want. Newspages change daily, while you visit the same addres; social media sites are personalized despite following the same link. However, for scholarly purposes, this poses a problem exactly because references are **not** stable and are uncertain to be exactly that what was referred to. If you refer to an online news article in a manuscript, it might be there today but it can be edited or deleted at any time. When that happens, nobody can verify what you referenced. 
 
