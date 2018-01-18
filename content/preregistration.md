@@ -1,6 +1,6 @@
 # Preregistration
 
-Predictions are tested on data; preregistration helps prove that predictions precede the data. This chronology is essential for valid tests of predictions (confirmatory research). Preregistration is not necessary for research that has no predictions and uses no hypothesis testing (exploratory research). Preregistration derives its name from the act of registering predictions before (pre) a publication finds place (not to be confused with [Preprints](preprints.md)).
+Predictions are tested on data; preregistration helps prove that predictions precede the data. This chronology is essential for valid tests of predictions (confirmatory research). Preregistration is not necessary for research that has no predictions and uses no hypothesis testing (exploratory research). Preregistration derives its name from the act of registering predictions before (pre) analysis (not to be confused with [Preprints](preprints.md)).
 
 To show the necessity of preregistration, consider this analogy: Horse racing bets cannot be placed after the results are known. Predictions in research are bets on how well a phenomenon is understood; the more specific the prediction the higher the gains if correct. However, it also means that bets cannot change, even in the slightest sense. 
 
