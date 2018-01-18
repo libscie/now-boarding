@@ -8,7 +8,7 @@ Restrictive licenses restrict who can share and reuse, depending on either their
 
 Permissive licenses apply equally to everyone and do not restrict based on intention or financial resources. The person who wants to share/reuse can do so freely, as long as it adheres to some basic conditions like referring back to the original work (CC BY) or without any conditions at all (CC 0). Such permissive licenses are freely available online and [tools are available to choose one](https://choosealicense.com).
 
-If you choose a license, it is important to report this clearly with the content itself.
+If you choose a license, it is important to report this clearly with the content itself. Many [Preprint](preprints.md) servers allow you to choose one when posting. Another way of communicating a license is to include it on the first page of a manuscript (e.g., "Licensed CC BY 4.0"). In books, you often find these on one of the first pages.
 
 ## Exercises
 
