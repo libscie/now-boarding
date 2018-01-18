@@ -21,12 +21,12 @@ Many cloud based storage services use automatic version control: For each change
 Manual version control systems provide the ability for the user to create snapshots of files over time and add "commit" messages to create a logbook of changes. The [Metadata](metadata.md) produced in such a logbook is valuable when retracing steps in the research process when you've forgotten when you did what. If manual version control is used with clear-text files (files you can open in notepad without problems; e.g., scripts and Markdown files), it also provides the possibility to do track changes between any two versions you specify. One way of doing manual version control is [Git](git.md).
 
 ![](../assets/figs/version-control-diff.png)
-**Example of track changes in manual version control.**
+**Example of tracked changes in manual version control.**
 
 Automatic version control is easy to use but can provide excessive information because each change is stored with a timestamp. It does allow you to declutter your project folder considerably. Manual version control provides more control to the user and a more informative logbook, plus the ability to track changes within a file over time --- but requires a bit more training to use.
 
 # Exercises
 
 * Look at one of your current projects: Are there multiple versions of a similar document (e.g., manuscript) stored in the same folder?
-* Evaluate what kind of version control fits your needs better: Automatic (no logbook) or manual (with logbook)? Note: Consider whether your institution (if any) requires you to provide an account of published results.
+* Evaluate what kind of version control fits your needs better: Automatic (no logbook) or manual (with logbook)? Note: Consider whether your institution or journals you publish in require you to provide an account of published results.
 * Do you know anyone who uses a form of version control actively in their research? Consider having a chat with them about it.
