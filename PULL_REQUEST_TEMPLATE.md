@@ -1,3 +1,5 @@
+Address issue #NUMBER
+
 # To do before merge
 
 All contributions are welcome, and we know not everything is feasible (due to all kinds of reasons in life). If you know things that need to be done before a complete merge, please notify the maintainers here to streamline the project ✌
@@ -13,3 +15,11 @@ All contributions are welcome, and we know not everything is feasible (due to al
 These are topics not previously mentioned in the content or issues and that need to be added in the issues. Please use checkmarks so maintainers can keep track of which need to be added.
 
 - [ ] [Topic name]
+
+# External reviewers
+
+Feel free to review if you want, feel free to not do so too. Much love to reviewers for their willingness to take part 😍 
+
+@jibe-b
+@emaassen
+
