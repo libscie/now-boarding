@@ -1,12 +1,1 @@
-{
-  "nodes":[
-    {"name":"Preprints","group":1},
-    {"name":"node2","group":2},
-    {"name":"node3","group":2},
-    {"name":"node4","group":3}
-  ],
-  "links":[
-    {"source":0,"target": 1, "weight":500},
-    {"source":1,"target": 0, "weight":3}
-  ]
-}
+{"nodes":[{"name":"data-management-plan.md","group":1},{"name":"licensing.md","group":1},{"name":"postprints.md","group":1},{"name":"preprints.md","group":1},{"name":"preregistration.md","group":1},{"name":"repositories.md","group":1},{"name":"version-control.md","group":1}],"links":[{"source":2,"target":1,"weight":1},{"source":3,"target":1,"weight":1},{"source":3,"target":2,"weight":1},{"source":4,"target":3,"weight":1},{"source":5,"target":0,"weight":1}]}
