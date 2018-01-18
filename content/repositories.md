@@ -16,5 +16,5 @@ Many repositories have unique features that can help you out in your research an
 # Exercises
 
 * What kind of information could you archive within a research project? Think about what information you produce, what information might be valuable for other research projects.
-* Use the [re3data.org](https://www.re3data.org/browse/by-country/) country browser to find a repository to archive your data at the end of a project. There are many various features, so check out a few or ask people you know!
+* Use the [re3data.org](https://www.re3data.org/browse/by-country/) country browser to find a repository to archive your data at the end of a project. There are many various features, so check out a few, see what your organization/institute recommends or ask people you know!
 * What additional steps would you need to take in your research project to make sure that archived information can be interpreted by yourself in the future? Choose a type of information (e.g., materials, data set) and what information is required to understand the full contents (e.g., software required to open files, score ranges in data sets).
