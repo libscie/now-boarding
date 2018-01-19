@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<html lang="en-US"><head>
+	<html lang="en-US">
+  <html xmlns:xlink="http://www.w3.org/1999/xlink">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
@@ -34,8 +35,8 @@
  -->	<div class="diagram">
 <script>
 
-var width = 960,
-    height = 500
+var width = 1200,
+    height = 800
 
 var svg = d3.select("body").append("svg")
     .attr("width", width)
@@ -43,8 +44,8 @@ var svg = d3.select("body").append("svg")
 
 var force = d3.layout.force()
     .gravity(.05)
-    .distance(100)
-    .charge(-100)
+    .distance(200)
+    .charge(-200)
     .size([width, height]);
 
 d3.json("assets/graphFile.json", function(json) {
@@ -60,11 +61,11 @@ d3.json("assets/graphFile.json", function(json) {
     .style("stroke-width", function(d) { return Math.sqrt(d.weight); });
 
   var node = svg.selectAll(".node")
-      .data(json.nodes)
-    .enter().append("g")
-      .attr("class", "node")
-      .call(force.drag);
-
+    .data(json.nodes)
+    .enter().append("svg:a")
+    .attr("xlink:href", function (d) { return d.url })
+    .call(force.drag)
+  
   node.append("circle")
       .attr("r","5");
 
