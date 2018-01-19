@@ -9,7 +9,7 @@ function findTopics (dir, out) {
     let files = fs.readdirSync(dir)
 
     files.forEach((file) => {
-      out.nodes.push({ name: file, group: 1})
+      out.nodes.push({ name: file, url: `content/${file}`, group: 1})
       findRefs(file, out)
     })
 	  console.log(out)
