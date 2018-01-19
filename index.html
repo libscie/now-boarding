@@ -7,12 +7,14 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<link href="assets/styles.css" rel="stylesheet" type="text/css"/>
 	<link rel="stylesheet" href="https://code.cdn.mozilla.net/fonts/fira.css">
+	<script src="http://d3js.org/d3.v2.min.js?2.9.3"></script>
+
 	<title>Learning modern research skills</title>
 </head>
 <body>
 	<a href="https://github.com/libscie/now-boarding"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
 	<h1>Welcome on your research journey</h1>
-	<div class="navigation">
+<!-- 	<div class="navigation">
 		<li>Home</li>
 		<li>About</li>
 		<li>FAQ</li>
@@ -29,8 +31,61 @@
 	<div>
 		Struggling with an issue? We understand. That's why we have open community hours. These occur every week, and you can just jump in and chat with someone about what you're dealing with. Support is here! If it gets really out of hand we might have to think of something else.
 	</div>
-	<div class="diagram">
-		<iframe frameborder="0" style="width:100%;height:533px;" src="https://www.draw.io/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=overview.xml#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Flibscie%2Fnow-boarding%2Fmaster%2Foverview.xml"></iframe>
+ -->	<div class="diagram">
+<script>
+
+var width = 960,
+    height = 500
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width)
+    .attr("height", height);
+
+var force = d3.layout.force()
+    .gravity(.05)
+    .distance(100)
+    .charge(-100)
+    .size([width, height]);
+
+d3.json("assets/graphFile.json", function(json) {
+  force
+      .nodes(json.nodes)
+      .links(json.links)
+      .start();
+
+  var link = svg.selectAll(".link")
+      .data(json.links)
+    .enter().append("line")
+      .attr("class", "link")
+    .style("stroke-width", function(d) { return Math.sqrt(d.weight); });
+
+  var node = svg.selectAll(".node")
+      .data(json.nodes)
+    .enter().append("g")
+      .attr("class", "node")
+      .call(force.drag);
+
+  node.append("circle")
+      .attr("r","5");
+
+  node.append("text")
+      .attr("dx", 12)
+      .attr("dy", ".35em")
+      .text(function(d) { return d.name });
+
+  force.on("tick", function() {
+    link.attr("x1", function(d) { return d.source.x; })
+        .attr("y1", function(d) { return d.source.y; })
+        .attr("x2", function(d) { return d.target.x; })
+        .attr("y2", function(d) { return d.target.y; });
+
+    node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+  });
+});
+
+</script>
+
+
 	</div>
 	<footer>
 		<p>A <a href='libscie.org'>Liberate Science</a> project</p>
