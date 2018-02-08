@@ -6,6 +6,8 @@ Modern researchers require a diverse set of skills. Many of these are topic-spec
 
 If you are interested in reading the materials, [please visit the GitHub pages version of this repository](https://libscie.github.io/now-boarding).
 
+[![](assets/figs/readme-header.png)](https://libscie.github.io/now-boarding)
+
 ## Contributing
 
 Please read [CONTRIBUTING.md](contributing.md) for details on the process for submitting pull requests to us or contributing in other ways. Please note that this project adheres a [code of conduct](CODE_OF_CONDUCT.MD) in order to ensure a respectful environment to allow for diverse discussion of issues. [Intolerance will not be tolerated](https://en.wikipedia.org/wiki/Paradox_of_tolerance). There is room for genuine mistakes if you treat people as whole human beings and are not defensive if you make a mistake and offend someone ([here](https://aprilhathcock.wordpress.com/2016/04/13/youre-gonna-screw-up/) are some tips on dealing with that).
