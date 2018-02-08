@@ -61,5 +61,5 @@ findTopics('content/', outObj)
 console.log(outObj)
 
 fs.writeFile(outFile, JSON.stringify(outObj), (err) => {
-    if(err) throw err
+    if (err) throw err
 })
