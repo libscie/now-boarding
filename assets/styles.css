@@ -1,3 +1,15 @@
+body {
+  margin: 2.5% 20% 20% 20%;
+ 	font-family: Fira Sans;
+}
+
+img {
+	max-width: 100%;
+	max-height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 h1 {
 	font-family: Fira Sans;
 	color: grey;
@@ -8,16 +20,12 @@ div {
 	font-family: Fira Sans;
 	margin: 0em 20% .5em 20%;
 	align-content: center;
-
 }
 
-.tldr {
-
+div.center {
+	align-self: center;
 }
 
-.warning {
-
-}
 
 .diagram {
 	align-self: center;
@@ -27,8 +35,8 @@ footer {
 	font-family: Fira Sans;
 	font-style: ExtraLight;
 	font-size: .5em;
-	text-align: center;
-
+	position: fixed;
+	bottom: 0;
 }
 
 .link {
