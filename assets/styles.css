@@ -27,16 +27,14 @@ div.center {
 }
 
 
-.diagram {
+#diagram {
 	align-self: center;
 }
 
 footer {
 	font-family: Fira Sans;
 	font-style: ExtraLight;
-	font-size: .5em;
-	position: fixed;
-	bottom: 0;
+	font-size: .75em;
 }
 
 .link {
