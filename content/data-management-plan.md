@@ -1,6 +1,9 @@
-# Data Management Plan (DMP)
+# [Data Management Plan (DMP)](https://github.com/libscie/now-boarding/edit/master/content/data-management-plan.md)
 
+<div id='container'>
+  <div id='col1'>
 Data management plans help structure data handling throughout a research project. Simply put, data management plans ask the following guiding questions:
+
   * Where can collaborators find the data?
   * Is the data accessible to others?
   * Is the data interoperable?
@@ -15,6 +18,9 @@ One way to create a data management plan is to walk through the various question
 Many pages already exist that provide examples of such plans. For example, the [University of Minnesota](https://www.lib.umn.edu/datamanagement/DMP/example) provides a set of field specific examples. There is also the [DMPTool](https://dmptool.org/) that provides you with a web application to make your data management plan. It is worthwhile to search for additional examples dependent on the potential requirements from a funding agency, or from the institute itself. 
 
 Data management plans are the biggest help to yourself, providing a fundamental project management tool to identify key strengths and issues in how data is handled throughout a project. In order to make the data reusable, [Licensing](licensing.md.html) and understanding [Data protection](data-protection.md.html) laws is essential when preparing and sharing data.
+</div>
+
+<div id='col2'>
 
 ## Exercises
 
@@ -27,3 +33,5 @@ Data management plans are the biggest help to yourself, providing a fundamental 
 * [The FAIR Guiding Principles for scientific data management and stewardship](https://www.nature.com/articles/sdata201618)
 * [Data management general guidance](https://dmptool.org/general_guidance)
 * Digital Curation Centre - [How to Develop a Data Management and Sharing Plan](http://www.dcc.ac.uk/resources/how-guides/develop-data-plan) & [Checklist for a Data Management Plan](http://www.dcc.ac.uk/sites/default/files/documents/resource/DMP/DMP_Checklist_2013.pdf)
+</div>
+</div>

@@ -3,96 +3,99 @@
 <head>
 	<html lang="en-US">
   <html xmlns:xlink="http://www.w3.org/1999/xlink">
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<link href="assets/styles.css" rel="stylesheet" type="text/css"/>
-	<link rel="stylesheet" href="https://code.cdn.mozilla.net/fonts/fira.css">
-	<script src="https://d3js.org/d3.v2.min.js?2.9.3"></script>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="assets/styles.css" rel="stylesheet" type="text/css"/>
+  <link rel="stylesheet" href="https://code.cdn.mozilla.net/fonts/fira.css">
+  <!-- <script src="https://d3js.org/d3.v2.min.js?2.9.3"></script> -->
+  <script src="assets/d3.v2.min.js"></script>
 
-	<title>Learning modern research skills</title>
+  <title>Research onboarding</title>
 </head>
 <body>
-	<a href="https://github.com/libscie/now-boarding"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
-	<h1>Welcome on your research journey</h1>
-	<div class="navigation">
-<!-- 		<li>Home</li>
-		<li>About</li>
-		<li>FAQ</li>
-	</div>
-	<div>
-		Science is rapidly changing and this resource is here to help you get started. Use it as a reference, use it as a study guide, use it for your purposes. Distribute it, adopt it, edit it. It is here for you. Hack it however you see fit. Hacking is a good thing in our opinion.
-	</div>
-	<div class="tldr">
-		tl;dr learn the skills senior researchers do not have. Just like grandparents rarely teach their grandchildren how to code, senior researchers rarely teach the modern skills of science not related to the content.
-	</div>
-	<div class="warning">
-		NOTE: This is a work in progress and will be updated frequently. The plan is to launch a relatively stable version for September 2018. If you want to contribute to this project, please e-mail <a href="mailto:info@libscie.org">info@libscie.org</a>, visit our <a href="https://github.com/libscie/now-boarding">GitHub repository</a>, or chat with us on <a href="https://gitter.im/libscie/now-boarding">Gitter</a>.
-	</div>
-	<div>
-		Struggling with an issue? We understand. That's why we have open community hours. These occur every week, and you can just jump in and chat with someone about what you're dealing with. Support is here! If it gets really out of hand we might have to think of something else.
-	</div>	
- -->
-<div class="diagram">
-<script>
+	<!-- <h1>Onboarding</h1> -->
+  <div id='container'>
+    <div id='col1' style="align-self: left;">
+      <script>
 
-var width = 1200,
-    height = 800
+        var width = window.innerWidth || document.body.clientWidth,
+        height = 600
 
-var svg = d3.select("body").append("svg")
-    .attr("width", width)
-    .attr("height", height);
+        width = width / 3
 
-var force = d3.layout.force()
-    .gravity(.05)
-    .distance(200)
-    .charge(-200)
-    .size([width, height]);
+        var svg = d3.select("#col1").append("svg")
+        .attr("width", width)
+        .attr("height", height)
+        // .attr("float", "left");
 
-d3.json("assets/graphFile.json", function(json) {
-  force
-      .nodes(json.nodes)
-      .links(json.links)
-      .start();
+        var force = d3.layout.force()
+        .gravity(.05)
+        .distance(125)
+        .charge(-200)
+        .size([width, height]);
 
-  var link = svg.selectAll(".link")
-      .data(json.links)
-    .enter().append("line")
-      .attr("class", "link")
-    .style("stroke-width", function(d) { return Math.sqrt(d.weight); });
+        d3.json("assets/graphFile.json", function(json) {
+          force
+          .nodes(json.nodes)
+          .links(json.links)
+          .start();
 
-  var node = svg.selectAll(".node")
-    .data(json.nodes)
-    .enter().append("svg:a")
-    .attr("xlink:href", function (d) { return d.url })
-    .call(force.drag)
-  
-  node.append("circle")
-      .attr("r","5");
+          var link = svg.selectAll(".link")
+          .data(json.links)
+          .enter().append("line")
+          .attr("class", "link")
+          .style("stroke-width", function(d) { return Math.sqrt(d.weight); })
+          .style("stroke", "#f7941f");
 
-  node.append("text")
-      .attr("dx", 12)
-      .attr("dy", ".35em")
-      .text(function(d) { return d.name });
+          var node = svg.selectAll(".node")
+          .data(json.nodes)
+          .enter().append("svg:a")
+          .attr("xlink:href", function (d) { return d.url })
+          .call(force.drag)
 
-  force.on("tick", function() {
-    link.attr("x1", function(d) { return d.source.x; })
-        .attr("y1", function(d) { return d.source.y; })
-        .attr("x2", function(d) { return d.target.x; })
-        .attr("y2", function(d) { return d.target.y; });
+          node.append("circle")
+          .attr("r","5")
+          .style("fill", "#f92672")
 
-    node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
-  });
-});
+          node.append("text")
+          .attr("dx", 12)
+          .attr("dy", ".35em")
+          .text(function(d) { return d.name })
+          .style("fill", "#f2f2ec")
+          .style("font-family", "Fira Sans")
 
-</script>
+          force.on("tick", function() {
+            link.attr("x1", function(d) { return d.source.x; })
+            .attr("y1", function(d) { return d.source.y; })
+            .attr("x2", function(d) { return d.target.x; })
+            .attr("y2", function(d) { return d.target.y; });
 
+            node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+          });
+        });
+      </script>
+    </div>
+    <div id='col2'>
+      <p>Research keeps changing and it's difficult to keep up. We try to help you with that 📣 Each section contains an introduction of utmost 2 pages.</p>
 
-	</div>
-	<!-- <footer>
-		<p>A <a href='libscie.org'>Liberate Science</a> project</p>
-		<p>All original content available under CC 0 Public Domain Dedication</p>
-		<p>Remix + reuse = YAY!</p>
-	</footer> -->
+      <p>Want an introduction for something but don't see it here? Please let us know by posting it <a href='https://github.com/libscie/now-boarding/issues/new'>here</a> 👋</p>
+
+      <p>We all make mistakes, and you can make direct suggestions on GitHub by clicking the title of the page. We love <a href='https://github.com/libscie/now-boarding#authors'>contributors</a>!</p>
+
+      <p>(this page best viewed on a desktop)</p>
+
+      <div align='center'>
+        <p>
+          <a href='http://libscie.org'><img src='assets/libcsie.svg' height='50px' /></a>
+          <a href='https://creativecommons.org/publicdomain/zero/1.0/legalcode'><img src='assets/cc0.svg' height='50px' /></a>
+          <a href='https://github.com/libscie/now-boarding'><img src='assets/github.svg' height='50px' /></a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div id="diagram">
+
+  </div>
 </body>
 </html>
