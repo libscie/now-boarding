@@ -1,53 +1,107 @@
-body {
-  margin: 2.5% 20% 20% 20%;
- 	font-family: Fira Sans;
-}
-
-img {
-	max-width: 100%;
-	max-height: 500px;
-	margin-left: auto;
-	margin-right: auto;
-}
+/* background sublime: #272822*/
+/* text sublime: #f2f2ec */
+/* h1 md: #f92672 */
+/* h2 md: #f7941f  */
+/* blueish: #65d8ee */
 
 h1 {
 	font-family: Fira Sans;
-	color: grey;
+	color: #f2f2ec;
 	text-align: center;
+	font-size: 4em;
+}
+
+h2, h3 {
+	font-family: Fira Sans;
+	color: #f2f2ec;
+	text-align: center;
+	font-size: 2em;
+}
+
+body {
+	background: #272822;
+	/*align-self: center;*/
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 80%;
 }
 
 div {
 	font-family: Fira Sans;
-	margin: 0em 20% .5em 20%;
-	align-content: center;
-}
-
-div.center {
 	align-self: center;
+	font-size: 1.2em;
+	color: #f2f2ec;
 }
 
+#container {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 100%;
+	grid-gap: 30px;
+	margin-top: 0em;
+}
 
-#diagram {
+#col1 {
+	font-size: 1em;
+	align-self: left;
+}
+
+#col2 {
+	float: center;
+	text-align: left;
+	align-self: center;
+	/*margin: 20%;*/
+}
+
+p {
+	font-family: Fira Sans;
+	text-align: : center;
+	color: #f2f2ec;
+	/*max-width: 80%;*/
+}
+
+a {
+	font-family: Fira Sans;
+	color: #65d8ee;
+}
+
+img {
+	max-width: 100%;
+}
+
+ul {
+	font-family: Fira Sans;
+	color: #f2f2ec;
+	max-width: 80%;
+}
+
+table {
+	font-family: Fira Sans;
+	color: #f2f2ec;
+}
+
+.link {
+	stroke: #aaa;
+}
+
+.node text {
+	stroke: #f92672;
+	cursor: pointer;
+}
+
+.node circle{
+	stroke:#fff;
+	stroke-width:3px;
+	fill:#f7941f;
+}
+
+svg {
 	align-self: center;
 }
 
 footer {
 	font-family: Fira Sans;
 	font-style: ExtraLight;
-	font-size: .75em;
-}
-
-.link {
-  stroke: #aaa;
-}
-
-.node text {
-stroke:#333;
-cursos:pointer;
-}
-
-.node circle{
-stroke:#fff;
-stroke-width:3px;
-fill:#555;
+	font-size: 1em;
+	text-align: center;
 }
