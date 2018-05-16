@@ -7,10 +7,12 @@ let outObj = { nodes: [], links: [] }
 
 function findTopics (dir, out) {
     let files = fs.readdirSync(dir)
-
+    let pattern = new RegExp(/(\.md\.html)$/)
     files.forEach((file) => {
-      out.nodes.push({ name: file, url: `content/${file}.html`, group: 1})
-      findRefs(file, out)
+      if ( !file.match(pattern) ) {
+            out.nodes.push({ name: file, url: `content/${file}.html`, group: 1})
+            findRefs(file, out)
+          }
     })
 	  console.log(out)
   }
