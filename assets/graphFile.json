@@ -1,1 +1,166 @@
-{"nodes":[{"name":"data-management-plan.md","url":"content/data-management-plan.md.html","group":1},{"name":"data-management-plan.md.html","url":"content/data-management-plan.md.html.html","group":1},{"name":"file-naming.md","url":"content/file-naming.md.html","group":1},{"name":"file-naming.md.html","url":"content/file-naming.md.html.html","group":1},{"name":"licensing.md","url":"content/licensing.md.html","group":1},{"name":"licensing.md.html","url":"content/licensing.md.html.html","group":1},{"name":"open-access.md","url":"content/open-access.md.html","group":1},{"name":"open-access.md.html","url":"content/open-access.md.html.html","group":1},{"name":"postprints.md","url":"content/postprints.md.html","group":1},{"name":"postprints.md.html","url":"content/postprints.md.html.html","group":1},{"name":"preprints.md","url":"content/preprints.md.html","group":1},{"name":"preprints.md.html","url":"content/preprints.md.html.html","group":1},{"name":"preregistration.md","url":"content/preregistration.md.html","group":1},{"name":"preregistration.md.html","url":"content/preregistration.md.html.html","group":1},{"name":"publication-bias.md","url":"content/publication-bias.md.html","group":1},{"name":"publication-bias.md.html","url":"content/publication-bias.md.html.html","group":1},{"name":"reference-rot.md","url":"content/reference-rot.md.html","group":1},{"name":"reference-rot.md.html","url":"content/reference-rot.md.html.html","group":1},{"name":"repositories.md","url":"content/repositories.md.html","group":1},{"name":"repositories.md.html","url":"content/repositories.md.html.html","group":1},{"name":"version-control.md","url":"content/version-control.md.html","group":1},{"name":"version-control.md.html","url":"content/version-control.md.html.html","group":1}],"links":[{"source":0,"target":0,"weight":1},{"source":1,"target":0,"weight":1},{"source":2,"target":2,"weight":1},{"source":3,"target":2,"weight":1},{"source":4,"target":4,"weight":1},{"source":5,"target":4,"weight":1},{"source":6,"target":4,"weight":1},{"source":7,"target":4,"weight":1},{"source":8,"target":4,"weight":1},{"source":8,"target":6,"weight":1},{"source":8,"target":8,"weight":1},{"source":9,"target":4,"weight":1},{"source":9,"target":6,"weight":1},{"source":9,"target":8,"weight":1},{"source":10,"target":4,"weight":1},{"source":10,"target":8,"weight":1},{"source":10,"target":10,"weight":1},{"source":11,"target":4,"weight":1},{"source":11,"target":8,"weight":1},{"source":11,"target":10,"weight":1},{"source":12,"target":10,"weight":1},{"source":12,"target":10,"weight":1},{"source":12,"target":12,"weight":1},{"source":13,"target":10,"weight":1},{"source":13,"target":10,"weight":1},{"source":13,"target":12,"weight":1},{"source":14,"target":12,"weight":1},{"source":15,"target":12,"weight":1},{"source":16,"target":16,"weight":1},{"source":17,"target":16,"weight":1},{"source":18,"target":0,"weight":1},{"source":18,"target":16,"weight":1},{"source":18,"target":18,"weight":1},{"source":19,"target":0,"weight":1},{"source":19,"target":16,"weight":1},{"source":19,"target":18,"weight":1},{"source":20,"target":2,"weight":1},{"source":20,"target":20,"weight":1},{"source":21,"target":2,"weight":1},{"source":21,"target":20,"weight":1}]}
+{
+  "nodes": [
+    {
+      "name": "Data management plan",
+      "url": "content/data-management-plan.md.html",
+      "group": 1
+    },
+    {
+      "name": "File naming",
+      "url": "content/file-naming.md.html",
+      "group": 1
+    },
+    {
+      "name": "Licensing",
+      "url": "content/licensing.md.html",
+      "group": 1
+    },
+    {
+      "name": "Open access",
+      "url": "content/open-access.md.html",
+      "group": 1
+    },
+    {
+      "name": "Postprints",
+      "url": "content/postprints.md.html",
+      "group": 1
+    },
+    {
+      "name": "Preprints",
+      "url": "content/preprints.md.html",
+      "group": 1
+    },
+    {
+      "name": "Preregistration",
+      "url": "content/preregistration.md.html",
+      "group": 1
+    },
+    {
+      "name": "Publication bias",
+      "url": "content/publication-bias.md.html",
+      "group": 1
+    },
+    {
+      "name": "Reference rot",
+      "url": "content/reference-rot.md.html",
+      "group": 1
+    },
+    {
+      "name": "Repositories",
+      "url": "content/repositories.md.html",
+      "group": 1
+    },
+    {
+      "name": "Version control",
+      "url": "content/version-control.md.html",
+      "group": 1
+    }
+  ],
+  "links": [
+    {
+      "source": 0,
+      "target": 0,
+      "weight": 1
+    },
+    {
+      "source": 1,
+      "target": 1,
+      "weight": 1
+    },
+    {
+      "source": 2,
+      "target": 2,
+      "weight": 1
+    },
+    {
+      "source": 3,
+      "target": 2,
+      "weight": 1
+    },
+    {
+      "source": 3,
+      "target": 3,
+      "weight": 1
+    },
+    {
+      "source": 4,
+      "target": 2,
+      "weight": 1
+    },
+    {
+      "source": 4,
+      "target": 3,
+      "weight": 1
+    },
+    {
+      "source": 4,
+      "target": 4,
+      "weight": 1
+    },
+    {
+      "source": 5,
+      "target": 2,
+      "weight": 1
+    },
+    {
+      "source": 5,
+      "target": 4,
+      "weight": 1
+    },
+    {
+      "source": 5,
+      "target": 5,
+      "weight": 1
+    },
+    {
+      "source": 6,
+      "target": 5,
+      "weight": 1
+    },
+    {
+      "source": 6,
+      "target": 6,
+      "weight": 1
+    },
+    {
+      "source": 7,
+      "target": 6,
+      "weight": 1
+    },
+    {
+      "source": 7,
+      "target": 7,
+      "weight": 1
+    },
+    {
+      "source": 8,
+      "target": 8,
+      "weight": 1
+    },
+    {
+      "source": 9,
+      "target": 0,
+      "weight": 1
+    },
+    {
+      "source": 9,
+      "target": 8,
+      "weight": 1
+    },
+    {
+      "source": 9,
+      "target": 9,
+      "weight": 1
+    },
+    {
+      "source": 10,
+      "target": 1,
+      "weight": 1
+    },
+    {
+      "source": 10,
+      "target": 10,
+      "weight": 1
+    }
+  ]
+}

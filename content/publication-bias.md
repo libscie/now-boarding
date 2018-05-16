@@ -1,4 +1,7 @@
-# Publication bias
+# [Publication bias](https://github.com/libscie/now-boarding/edit/master/content/publication-bias.md)
+
+<div id='container'>
+<div id='col1'>
 
 Publication bias is the selective publication of research results on an arbitrary judgement. Such arbitrary judgements (can) vary across individuals, over time, and remain undisclosed to those who are not privy to the decision process. Publication bias distorts the complete picture of research results and by extension threatens the validity of results, theories, and effectivity of interventions. For example, [less than half of all registered clinical trials on breast cancer are published](https://doi.org/10.1186/s41073-016-0017-4) for unknown reasons.
 
@@ -10,6 +13,8 @@ Publication bias can occur at many stages in the research process and can be out
 
 There are several ways to prevent publication bias, which include communicating research designs publicly before results are available (see also [Preregistration](preregistration.md). With the Web, individuals have the possibility to share all their planned studies easily. Some journals have started accepting [Registered reports](registered-reports.md) in order to prevent publication bias based on reviewer biases on statistical significance. 
 
+</div>
+<div id='col2'>
 # Exercises
 
 * What are common reasons in your field for results not being published? Do any of these show any indication of bias instead of a quality check? (Hint: It is good to discuss this with a colleague over coffee!)
@@ -25,3 +30,4 @@ There are several ways to prevent publication bias, which include communicating 
 | 2     | Disclose all research designs publicly upon completion            |
 | 3     | Post all research designs publicly before data analysis           |
 
+</div>

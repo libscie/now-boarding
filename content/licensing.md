@@ -2,9 +2,9 @@
 
 <div id='container'>
   <div id='col1'>
-Licensing is about communicating what people are allowed to do with the things that you create (or what you are allowed to do with what other people create). This pertains to blogs, photographs, drawings, videos, designs, code, and research output (amongst many other things). Each piece of content has its own license. Licensing is one component to [Copyright](copyright.md.html).
+Licensing is about communicating what people are allowed to do with the things that you create (or what you are allowed to do with what other people create). This pertains to blogs, photographs, drawings, videos, designs, code, and research output (amongst many other things). Each piece of content has its own license. Licensing is one component to [Copyright](copyright.md).
 
-Licenses are a legal contract. As a creator, you can initiate legal steps if that contract is broken. However, the important question is whether you actually are committed to doing this before choosing a license. If you [transfer the copyright](copyright-transfer-agreements.md.html), the new rightsholder becomes responsible. If you grant an exclusive license, you become unable to grant other licenses without breaking that exclusive contract.
+Licenses are a legal contract. As a creator, you can initiate legal steps if that contract is broken. However, the important question is whether you actually are committed to doing this before choosing a license. If you [transfer the copyright](copyright-transfer-agreements.md), the new rightsholder becomes responsible. If you grant an exclusive license, you become unable to grant other licenses without breaking that exclusive contract.
 
 Restrictive licenses restrict who can share and reuse, depending on either their financial resources or intentions. If no license is specified, it is the most restrictive of all situations and requires contacting the creator to negotiate an individual contract (if the creator can be reached!). These contracts often vary each time, given different negotiating processes. If a license is specified, for example one that does not allow commercial use, it treats everyone equally but restricts sharing and reuse based on the intentions of that individual.
 

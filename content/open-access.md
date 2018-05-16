@@ -1,4 +1,7 @@
-# Open Access
+# [Open Access](https://github.com/libscie/now-boarding/edit/master/content/open-access.md)
+
+<div id='container'>
+  <div id='col1'>
 
 Open Access refers to online, free of cost access to research outputs, such as publications, with limited copyright and licensing restrictions so that anyone may read and reuse that research.
 
@@ -17,9 +20,10 @@ There are 2 main routes to open access publishing: Gold and Green.
 
 The Gold route refers to making research articles freely accessible immediately upon publication by the publisher. This can be done by publishing through a fully Open Access journal (e.g., [PeerJ](https://peerj.com/) or a hybrid journal (which offers both Open Access and subscription content). This route often involves additional article processing charges (APCs), and are paid for by the University or research institute to which the researcher is affiliated, or by the funding agency supporting the research. This limits Gold Open Access publishing to institutions that can afford the APCs. Alternative business models will be needed to make publishing free and reusable content proliferate even further.
 
-The Green route refers to publishing in a subscription based journal, but involves self-archiving of the peer-reviewed [Postprints](postprints.md) (and/or not peer-reviewed [Preprints](preprints.md)) by the authors in an institutional or external subject-based repository (try to avoid using a personal website which may lead to [reference rot](reference-rot.md)). No additional charges to the authors are incurred, but care needs to be taken on this route as journals and publishers may have [policies on self-archiving](sherpa.ac.uk/romeo) or require an [embargo](embargo.md) period before deposition in public repositories is allowed. This route may also still be restrictive in how people are allowed to share the research and redistribute it due to [Copyright](copyright.md), despite the fact that you can access the information in a postprint. The main problem is that [Copyright Transfer Agreements](copyright-transfer-agreements.md) often require the author to transfer *all* copyright. To promote permissive reuse of your research, read more about [Licensing](licensing.md).
+The Green route refers to publishing in a subscription based journal, but involves self-archiving of the peer-reviewed [Postprints](postprints.md) (and/or not peer-reviewed [Preprints](preprints.md)) by the authors in an institutional or external subject-based repository (try to avoid using a personal website which may lead to [reference rot](reference-rot.md)). No additional charges to the authors are incurred, but care needs to be taken on this route as journals and publishers may have [policies on self-archiving](sherpa.ac.uk/romeo) or require an embargo period before deposition in public repositories is allowed. This route may also still be restrictive in how people are allowed to share the research and redistribute it due to [Copyright](copyright.md), despite the fact that you can access the information in a postprint. The main problem is that [Copyright Transfer Agreements](copyright-transfer-agreements.md) often require the author to transfer *all* copyright. To promote permissive reuse of your research, read more about [Licensing](licensing.md).
 
-
+</div>
+<div id='col2'>
 ## Exercises
 
 * Consider what your definition of Open Access is. How does it compare to that of the Budapest Open Access Initiative?
@@ -38,3 +42,4 @@ The Green route refers to publishing in a subscription based journal, but involv
 ## Further reading:
   * [The academic, economic and societal impacts of Open Access: an evidence-based review](https://f1000research.com/articles/5-632/v3)
   * [Point of View: How open science helps researchers succeed](https://elifesciences.org/articles/16800)
+</div>
